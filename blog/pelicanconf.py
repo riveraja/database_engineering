@@ -1,11 +1,11 @@
 AUTHOR = 'Jericho Rivera'
-SITENAME = 'Jericho\'s log'
+SITENAME = 'Jericho\'s SysLog'
 SITESUBTITLE = 'a database engineer\'s throughts and ramblings...'
 SITEURL = ''
 
 PATH = 'content'
 ARTICLE_PATHS = ['posts']
-STATIC_PATHS = ['images']
+# STATIC_PATHS = ['images']
 
 TIMEZONE = 'Asia/Manila'
 
