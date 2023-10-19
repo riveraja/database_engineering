@@ -41,5 +41,15 @@ TYPOGRIPHY = True
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['readtime', 'neighbors']
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.sane_lists': {},
+        'markdown.extensions.admonition': {},
+    },
+    'output_format': 'html5',
+}
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
